@@ -20,16 +20,21 @@ A aplicação pode ser acessada em produção através da url:
 A aplicação reage há três eventos:
 - No primeiro momento caso o usuário não tenha habilitado a localização do dispositivo:
 <br/>
-<img src="./src/assets/localização.PNG" width="500px">
-
+<p align="center">
+    <img src="./src/assets/localização.PNG" width="700px">
+</p>
 
 - No segundo é o momento que os dados estão sendo requisitados à API:
 <br/>
-<img src="./src/assets/carregando.PNG" width="500px">
+<p align="center">
+    <img src="./src/assets/carregando.PNG" width="700px">
+</p>
 
 - No terceiro são exibidas as informações climáticas referentes a localização informada:
 <br/>
-<img src="./src/assets/inicial.PNG" width="500px">
+<p align="center">
+    <img src="./src/assets/inicial.PNG" width="700px">
+</p>
 
 
 
