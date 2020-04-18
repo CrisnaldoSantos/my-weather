@@ -1,3 +1,6 @@
+<h4 align="center">
+    <img src="./src/assets/nuvem.png" width="50px">
+</h4>
 <h1 align="center">
     My Weather
 </h1>
