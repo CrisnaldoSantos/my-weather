@@ -58,8 +58,12 @@ function App() {
     return (
       <Fragment>
         <div className="App-container">
-          <img src={logo} alt="logo" width="300px"/>
-          <h3> Clima em {weather.name} : {weather['weather'][0]['description']} </h3>
+          <img className="logo" src={logo} alt="logo" width="250px"/>
+          <div className="title">
+            <h3> Clima em {weather.name} : {weather['weather'][0]['description']}</h3>
+            <img src={`http://openweathermap.org/img/wn/${weather['weather'][0]['icon']}.png`} alt="icon-weather" style={{marginTop:'0'}}/>
+          </div>
+          
 
           <ul>
             <li>
